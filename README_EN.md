@@ -87,6 +87,10 @@ MGO execution chain:
 - **Parent Skill**: Single interaction entry point, responsible for intent recognition, risk control, knowledge injection, module routing, and cross-module context passing
 - **Sub-modules A-G**: Stateless executors, each with independent role definitions, workflows, and output specifications
 
+## Documentation
+
+- [User Guide](references/user-guide.md) — Complete usage manual covering installation, seven modules explained, workflows, best practices, and FAQ
+
 ## Version
 
 Current version: **1.1.0** (General Availability)
