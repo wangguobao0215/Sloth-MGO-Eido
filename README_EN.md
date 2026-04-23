@@ -5,7 +5,7 @@
 <h1 align="center">Sloth-MGO-Eido</h1>
 
 <p align="center">
-  <strong>Marketing Growth Operations AI Agent</strong><br/>
+  <strong>深拓 · 市场增长 — Marketing Growth Operations AI Agent</strong><br/>
   An AI-powered full-loop marketing operations system for B2B SaaS companies, covering market intelligence, content creation, channel distribution, lead nurturing, customer lifecycle growth, and growth analytics.
 </p>
 
