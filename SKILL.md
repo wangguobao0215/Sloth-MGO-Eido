@@ -1,5 +1,5 @@
 ---
-name: Sloth-MGO-Eido
+name: sloth-mgo-eido
 version: 1.1.0
 description: >-
   B2B SaaS marketing team's AI growth partner. Tell me what you need in plain language:
@@ -8,6 +8,9 @@ description: >-
   command, producing sales intelligence cards; monitor competitor moves in real-time and
   update battle cards. Built-in China Advertising Law & PIPL compliance engine. Deep
   integration with Sloth-Sales-Eido, Agent-Reach, and the Sloth skill family.
+  Use when planning marketing campaigns, generating content, analyzing
+  competitors, managing leads, or producing marketing growth reports for B2B
+  SaaS products.
 description_zh: >-
   B2B SaaS 市场部的 AI 增长搭档。说人话就能干活：3 分钟出一篇合规审查通过的竞品
   对比文章，自动适配公众号、知乎、小红书等 10 个渠道格式；一键清洗线索并打分分级，
