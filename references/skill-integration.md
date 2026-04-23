@@ -56,6 +56,8 @@
 
 ## 2. MGO ↔ Sales-Eido 字段映射表
 
+> **版本兼容性**：本字段映射表基于 Sales-Eido v1.1 验证通过。Sales-Eido v1.0 部分字段名存在差异（`mgo_score` 在 v1.0 中为 `external_score`，`mgo_grade` 在 v1.0 中为 `external_grade`），与 v1.0 协同时需进行字段名转换。建议优先使用 Sales-Eido v1.1 及以上版本以获得完整映射支持。
+
 ### 2.1 线索移交（MGO → Sales）字段映射
 
 MGO 评分达到 H/A 级的线索，自动生成移交数据包：

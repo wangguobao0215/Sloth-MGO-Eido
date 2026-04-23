@@ -85,7 +85,19 @@ compliance:
   pipl: true                        # 个人信息保护法校验（数据脱敏提醒）
 ```
 
-## 六、线索评分权重
+## 六、预算与风控配置
+
+```yaml
+budget:
+  annual_marketing_budget: ""       # 年度市场预算（元），用于 L3 风控阈值判断和 ROI 参考
+  quarterly_budget: ""              # 季度市场预算（元），可选
+  single_campaign_limit: ""         # 单次活动预算上限（元），可选
+  # 预算信息来源：由用户在初始化时手动填写，或从 CRM/财务系统自动同步
+  # L3 风控触发条件"预算>10万"中的预算指单次活动预算或季度预算，优先读取 single_campaign_limit，
+  # 如未配置则读取 quarterly_budget / 4，如均未配置则使用默认值 10 万元作为阈值
+```
+
+## 七、线索评分权重
 
 ```yaml
 lead_scoring:
@@ -103,7 +115,7 @@ lead_scoring:
   handoff_sla_hours: 48             # H 级线索交付销售的 SLA（小时）
 ```
 
-## 七、集成配置
+## 八、集成配置
 
 ```yaml
 integrations:
