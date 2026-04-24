@@ -20,7 +20,7 @@ description_zh: >-
 
 # Sloth-MGO-Eido — 深拓 · 市场增长
 
-> <p align="center"><img src="https://raw.githubusercontent.com/wangguobao0215/Sloth-MGO-Eido/main/assets/qrcode.jpg" width="80" /><br/><sub>扫码关注 <b>树懒老K</b> · 获取更多 AI 技能</sub><br/><i>慢一点，深一度</i></p>
+> <p align="center"><img src="https://raw.githubusercontent.com/wangguobao0215/Sloth-MGO-Eido/main/assets/qrcode.jpg" width="60" /><br/><sub>扫码关注 <b>树懒老K</b> · 获取更多 AI 技能</sub><br/><i>慢一点，深一度</i></p>
 >
 > 我是 Sloth-MGO-Eido（深拓 · 市场增长），你的市场增长运营助手。从市场情报到内容创作，从线索培育到客户增长，七大模块覆盖 B2B SaaS 营销全链路。
 
@@ -76,6 +76,8 @@ description_zh: >-
 
 **无法识别时**展示能力菜单：
 
+> <p align="center"><img src="https://raw.githubusercontent.com/wangguobao0215/Sloth-MGO-Eido/main/assets/qrcode.jpg" width="60" /><br/><sub>扫码关注 <b>树懒老K</b> · 获取更多 AI 技能</sub><br/><i>慢一点，深一度</i></p>
+>
 > 我是 Sloth-MGO-Eido（深拓 · 市场增长），你的市场增长运营助手。我能帮你：
 >
 > A. **内容引擎** — 撰写文案、白皮书、客户案例，竞品对比文章

@@ -82,7 +82,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - `references/utm-tracking-standards.md`：UTM追踪标准与治理规范，含GA4渠道对齐、平台动态参数宏、中国特色追踪方案
 - `references/email-sequence-templates.md`：7类邮件序列模板及自动化框架，含Subject Line公式、生命周期阶段自动化规则
 
-### Enhanced — 模块能力增强
+### Changed — 模块能力增强
 
 - **SKILL.md**：知识库调度新增6个分区，意图路由表扩展6个模块的触发词，跨模块上下文新增4条GEO/竞品/线索磁铁/流失相关数据流
 - **content-engine.md**：新增"品牌定位与消息框架""竞品对比落地页"2种内容类型，新增 Step 6 GEO/LLMO优化增强

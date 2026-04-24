@@ -10,35 +10,31 @@
 
 ```yaml
 company:
-  name: ""                          # 公司名称，如"云深科技"
-  industry: ""                      # 所属行业，如"企业级 SaaS"、"智能制造"、"金融科技"
-  main_products: []                 # 主要产品/服务列表
-    # - "智能营销平台"
-    # - "客户数据平台（CDP）"
+  name: "Sloth"                     # 公司名称
+  industry: "企业级 SaaS / 智能体"  # 所属行业
+  main_products:                    # 主要产品/服务列表
+    - "智能体（AI Agent）"
+    - "SaaS 软件"
   target_customer_profile:          # 目标客户画像
-    company_size: ""                # 目标客户规模，如"200-2000人中大型企业"
-    industries: []                  # 目标客户行业，如 ["制造业", "零售", "金融"]
-    decision_makers: []             # 典型决策角色，如 ["CMO", "市场VP", "数字化负责人"]
-    pain_points: []                 # 目标客户核心痛点
-      # - "营销ROI难以量化"
-      # - "市场与销售协同低效"
-      # - "内容产出跟不上渠道需求"
+    company_size: "中小企业"         # 目标客户规模
+    industries: []                  # 目标客户行业（待补充）
+    decision_makers: []             # 典型决策角色（待补充）
+    pain_points: []                 # 目标客户核心痛点（待补充）
 ```
 
 ## 二、竞品列表
 
 ```yaml
-competitors:                        # 3-5 家核心竞品，用于情报监控和内容对标
-  - name: ""                        # 竞品名称，如"HubSpot"
-    website: ""                     # 竞品官网，如"https://www.hubspot.com"
-    notes: ""                       # 备注（可选），如"北美市场领导者，近期发力中国市场"
-  - name: ""
-    website: ""
-    notes: ""
-  - name: ""
-    website: ""
-    notes: ""
-  # 可继续添加，建议不超过 5 家
+competitors:                        # 3-5 家核心竞品
+  - name: "用友"
+    website: "https://www.yonyou.com"
+    notes: "国产 ERP/SaaS 龙头，产品线广"
+  - name: "鼎捷"
+    website: "https://www.digiwin.com"
+    notes: "制造业 ERP/MES 领域，台资背景"
+  - name: "浪潮"
+    website: "https://www.inspur.com"
+    notes: "国资背景，政企市场强势"
 ```
 
 ## 三、模块偏好
@@ -61,10 +57,10 @@ modules:
 ```yaml
 channels:
   # 设为 true 开启该渠道的内容适配和分发支持
-  wechat_mp: false                  # 微信公众号
-  zhihu: false                      # 知乎
-  toutiao: false                    # 今日头条 / 百家号
-  xiaohongshu: false                # 小红书
+  wechat_mp: true                   # 微信公众号
+  zhihu: true                       # 知乎
+  toutiao: true                     # 今日头条 / 百家号
+  xiaohongshu: true                 # 小红书
   linkedin: false                   # LinkedIn
   edm: false                        # EDM 邮件营销
   wechat_work: false                # 企业微信
